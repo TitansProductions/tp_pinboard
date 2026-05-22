@@ -1,19 +1,5 @@
 # TP Pinboard
 
-## Development Exports
+For all the required information and Development API, checkout our [Gitbook](https://titans-productions.gitbook.io/documentation/redm/scripts/pinboard)
 
-```lua
-
--- @param location : requires the pinboard location that is located on the configuration file `Config.Locations`.
-exports.tp_pinboard:openPinboardByName(location)
-```
-
-## Development Events
-
-```lua
-
--- @param location : requires the pinboard location that is located on the configuration file `Config.Locations`.
-
-TriggerEvent("tp_pinboard:openPinboardByName", location) -- client to client
-TriggerClientEvent("tp_pinboard:openPinboardByName", source, location) -- server to client
-```
+Github no longer provides any information, we now use Gitbook instead which is more advanced and understandable / friendly.
